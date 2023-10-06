@@ -195,12 +195,3 @@ ctx.lineJoin = "round";
 ctx.strokeStyle = "white";
 
 /* shadow event */
-var popupbt = document.querySelector(".shadowBtn");
-var popcon = document.querySelector(".shadow-container");
-var toolBtn = document.querySelector(".btn-container");
-let animation = document.styleSheets[0].cssRules[0];
-popupbt.addEventListener("click",()=>{
-    console.log("hie");
-    toolBtn.classList.toggle('hover');
-    popcon.classList.toggle('hover');
-})
